@@ -1,0 +1,81 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* Cor de fundo das seções */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+    text-align: center;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 10px 0;
+}
+/* Estilos adicionais para a imagem de perfil */
+.profile-img {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 200px; /* Tamanho máximo da imagem */
+    border-radius: 50%; /* Adiciona um efeito arredondado à imagem de perfil */
+    margin-top: 20px; /* Espaçamento superior */
+}
+/* Estilos adicionais para a imagem de perfil e links */
+.profile-wrapper {
+    text-align: center;
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 200px; /* Tamanho máximo da imagem */
+    border-radius: 50%; /* Adiciona um efeito arredondado à imagem de perfil */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center; /* Centraliza os links horizontalmente */
+    /* Estilo para links vermelhos */
+.red-link {
+    color: red; /* Define a cor do texto como vermelho */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+/* Estilize os links quando o mouse passar por cima deles */
+.red-link:hover {
+    text-decoration: underline; /* Adiciona um sublinhado quando o mouse passa por cima do link */
+}
